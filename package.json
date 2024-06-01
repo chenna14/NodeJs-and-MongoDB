@@ -1,0 +1,22 @@
+{
+  "name": "nodejs_mongodb",
+  "version": "1.0.0",
+  "description": "Creating API's with NodeJs and MongoDB using Fastify",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "author": "Chenna Keshava Reddy",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "dotenv": "^16.4.5",
+    "fastify": "^4.27.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.4.0"
+  },
+  "devDependencies": {
+    "eslint": "^9.3.0",
+    "nodemon": "^3.1.2"
+  }
+}
